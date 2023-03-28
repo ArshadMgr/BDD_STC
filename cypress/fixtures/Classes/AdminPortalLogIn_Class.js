@@ -9,7 +9,7 @@ class AdminPortalLogInClass{
    logIn(){
 
     cy.fixture("DataFiles/LoginData.json").then((datafile) => {
-    cy.visit('/')
+    cy.visit('https://cr.securetech-consultancy.com/admin/login')
      AdminPortalLogin.getUserName().type(datafile.UserName)
      AdminPortalLogin.getPassword().type(datafile.PW)
      AdminPortalLogin.getLogInBtn().click()
