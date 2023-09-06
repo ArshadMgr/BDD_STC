@@ -1,0 +1,8 @@
+{
+    "ShiftName": "TestCypress", 
+    "ShiftDesc": "TestCypress", 
+    "CompanyId": 1, 
+    "StartTime" : "08:00", 
+    "EndTime": "04:00"
+            
+}
