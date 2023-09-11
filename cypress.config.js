@@ -32,7 +32,7 @@ return config;
 
 
   e2e: {
-    //specPattern: 'cypress/*/*.feature',
+    specPattern: 'cypress/*/*.feature',
   },
 
 
