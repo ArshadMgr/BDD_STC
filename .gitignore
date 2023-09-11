@@ -29,3 +29,10 @@
 /.vs/STC-QA/FileContentIndex/f369708a-9829-4727-8349-b350d6e536fa.vsidx
 /.vs/STC-QA/FileContentIndex/f2209910-f6d5-48fb-b857-6a79a9ea11d0.vsidx
 /.vs/STC-QA/FileContentIndex/e518e3d2-ccfd-4e1e-9a60-3b4d50f341c0.vsidx
+/cypress/e2e/TC001_STEPLogin
+/.gitignore
+/cypress/e2e/TC002_AddLeaveType/AddLeaveType.cy.js
+/.gitignore
+/cypress/e2e/TC001_STEPLogin.feature
+*.feature
+/.gitignore
