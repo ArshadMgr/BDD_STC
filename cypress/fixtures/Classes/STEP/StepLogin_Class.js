@@ -11,7 +11,6 @@ class LoginClass{
         
 
         cy.fixture("DataFiles/STEP/LoginData.json").then((data) => {           
-            cy.visit('https://stcbase.securetech-consultancy.com/step-portal/#/login')
             LoginObjects.getUserName().type(data.STEPUserName)
             LoginObjects.getPW().type(data.STEPPW)
             LoginObjects.getLoginBtn().click()
